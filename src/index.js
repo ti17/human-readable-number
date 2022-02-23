@@ -1,5 +1,5 @@
 module.exports = function toReadable (number) {
-     const untilNine = {
+    const untilNine = {
         0: "zero",
         1: "one",
         2: "two",
@@ -73,5 +73,4 @@ module.exports = function toReadable (number) {
       } else {
         return threeDigitNum(numbToStr);
       };
-}
 }
